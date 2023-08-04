@@ -1,0 +1,22 @@
+html,body{
+    width:100vw;
+    height:100vh;
+    margin: 0;
+
+#retro{
+    position: fixed;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+    #retro{
+        width:100%;
+        height:auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    #retro{
+        width:auto;
+        height:100%;
+    }
+}
+}
